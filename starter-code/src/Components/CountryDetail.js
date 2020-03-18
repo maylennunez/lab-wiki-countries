@@ -15,7 +15,7 @@ class CountryDetail extends Component {
          let fullCountry = this.props.countries.find(eachCountry =>{
              return countryBorders[i] === eachCountry.cca3
          })
-        //  borderArr.push(<li><Link to={countryBorders[i]}>{fullCountry.name.common}</Link></li>)
+        
          borderArr.push(<li className="flash"><Link to={countryBorders[i]}>{fullCountry.name.common}</Link></li>)
      }
 
@@ -66,7 +66,6 @@ findDetails = () => {
 
  render() {
      return (
-        //  <div className="col-7">
        <div>
          {this.findDetails()}
        </div>

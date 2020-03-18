@@ -118,4 +118,4 @@ In this case, you should use only 1 `<Route />` for `CountryDetail`.
 Your `App` component should **always** show the list of countries.
 
 
-Happy coding! :heart:
+Happy coding! :heart:# wiki---country
